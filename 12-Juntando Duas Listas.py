@@ -1,7 +1,7 @@
-def juntar_listas(lista1,lista2):
-    return lista1 + lista2
+def juntar_listas(natureza,tecnologia):
+    return natureza + tecnologia
 
-primeira_lista = [1, 2, 3, 4, 5]
-segunda_lista = [6, 7, 8, 9, 10]
-terceira_lista = juntar_listas(primeira_lista, segunda_lista)
+natureza = ["rio", "floresta", "leão", "montanha", "oceano", "estrela", "vento", "cachoeira", "lua", "girassol"]
+tecnologia = ["algoritmo", "API", "blockchain", "código", "software", "nuvem", "hardware", "interface", "pixel", "servidor"]
+terceira_lista = juntar_listas(natureza, tecnologia)
 print(terceira_lista)
